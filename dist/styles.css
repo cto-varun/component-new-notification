@@ -1,0 +1,55 @@
+
+.topic-name
+{
+    color:#434343;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sub-topic-name
+{
+    color: #52C41A;
+    font-size: 13px;
+    font-weight: 500;
+}
+.feature-description
+{
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+.url-wrapper
+{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+.topic-header-section
+{
+    margin: 10px 0;
+}
+.url-text-link
+{
+    text-decoration: none;
+    color:#8C8C8C;
+    font-size: 12px;
+    font-weight: 500px;
+    text-align: left;
+}
+.all-section-wrapper
+{
+    height: 40vh;
+    overflow-y: scroll;
+}
+.title-date
+{
+    font-weight: 300;
+}
+.title-icon
+{
+    font-size: 15px;
+}
+.no-data-available
+{
+    text-align: center;
+}

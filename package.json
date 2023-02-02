@@ -1,0 +1,34 @@
+{
+    "name": "@ivoyant/component-new-notification",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "NewNotification",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u",
+        "i": "export NODE_OPTIONS=--openssl-legacy-provider && yarn"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "@ivoyant/component-message-bus": "^1.0.0",
+        "@storybook/react": "^6.5.15",
+        "moment": "^2.24.0"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "1.1.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
